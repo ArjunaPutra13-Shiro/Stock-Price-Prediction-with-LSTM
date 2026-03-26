@@ -32,7 +32,7 @@ This creates a richer representation of financial time series.
 ### 1. Data Collection
 - Source: Yahoo Finance (`yfinance`)
 - Asset: AMD stock
-- Time range: 2018–2024
+- Time range: 2015–2025
 
 ### 2. Feature Engineering
 - Log returns: $r_t = \log\left(\frac{P_t}{P_{t-1}}\right)$
