@@ -1,4 +1,4 @@
-# 📈 AMD Stock Price Prediction with LSTM and Shannon Entropy
+# 📈 Stock Price Prediction with LSTM and Shannon Entropy
 
 ## Overview
 This project explores stock price modeling for **AMD (Advanced Micro Devices)** using a deep learning approach based on **LSTM (Long Short-Term Memory)** networks.
