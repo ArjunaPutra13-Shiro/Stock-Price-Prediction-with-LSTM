@@ -35,7 +35,8 @@ This creates a richer representation of financial time series.
 - Time range: 2015–2025
 
 ### 2. Feature Engineering
-- Log returns: $r_t = \log\left(\frac{P_t}{P_{t-1}}\right)$
+- Log returns: 
+$r_t = \log\left(\frac{P_t}{P_{t-1}}\right)$
 - Loss: Mean Squared Error (MSE)  
 - Optimizer: AdamW  
 - Early stopping enabled  
