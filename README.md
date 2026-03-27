@@ -3,7 +3,7 @@
 ## Overview
 This project explores stock price modeling using a deep learning approach based on **LSTM (Long Short-Term Memory)** networks.
 
-Unlike naive price prediction models, this implementation incorporates **Shannon Entropy** as a feature to quantify market uncertainty, alongside traditional price-based features.
+Unlike naive price prediction models, this implementation incorporates **Entropy** as a feature to quantify market uncertainty, alongside traditional price-based features.
 
 The goal is not just prediction, but understanding how **information randomness affects time-series learning**.
 
@@ -23,7 +23,7 @@ This creates a richer representation of financial time series.
 ## Features Used
 - Closing Price  
 - Log Returns  
-- Rolling Shannon Entropy  
+- Rolling Entropy  
 
 ---
 
@@ -32,7 +32,7 @@ This creates a richer representation of financial time series.
 ### 1. Data Collection
 - Source: Yahoo Finance (`yfinance`)
 - Asset: AMD stock
-- Time range: 2015–2025
+- Time range: 2015–2026
 
 ### 2. Feature Engineering
 - Log returns: 
